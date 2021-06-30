@@ -9,6 +9,11 @@ body{
     font-weight: 600;
     float: right;
 }
+.navbar .nav-link:hover{
+    transform: translateY(-4px);
+    transition: 1s;
+    
+}
 .navbar-toggler{
     outline: none !important;
     color: #fff !important;
@@ -98,12 +103,6 @@ a .cart{
     box-shadow: 0 0 1px rgba(0, 0, 0,0);
     transition-duration: 0.5s;
     transition-property: box-shadow, transform;
-}
-.img-container:hover,
-.product-img:focus,
-.product-img:active{
-    box-shadow: 1px 0px 1px 4px rgba(247, 243, 243, 0.9);
-    transform: scale(1.1);
 }
 .card-text h5{
     font-weight: bold;
@@ -230,6 +229,10 @@ a .cart{
 }
 .heading-section{
     font-size: 40px;
+}
+
+.form-check{
+    margin-left: 20px;
 }
 /*--footer section--*/
 .footer{
