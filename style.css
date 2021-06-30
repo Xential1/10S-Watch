@@ -94,6 +94,10 @@ a .cart{
     position: relative;
     overflow: hidden;
     cursor: pointer;
+    border: 2px solid;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
    
 }
 .img-container{
@@ -193,6 +197,10 @@ a .cart{
     background-color: #000;
     color: #fff;
 }
+.about-text{
+    letter-spacing: 1px;
+    
+}
 @keyframes cont-btn{
     16%{
         transform: translateY(8px);
@@ -218,6 +226,10 @@ a .cart{
     vertical-align: middle;
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.cont-btn:hover{
+    background-color: blueviolet;
+
 }
 .cont-btn:hover,
 .cont-btn:focus,
